@@ -1,5 +1,6 @@
 <?php
 
+
 ?>
 
 <?php include('inc/header.php'); ?>
@@ -41,6 +42,6 @@
         </table>
         <br/>
 
-            <button type="button" class="btn btn-dark btn-sm" onclick="document.location='guestbook-login.php'">Logout</button>
+            <button type="button" class="btn btn-dark btn-sm" ><a style="color:white;" href="guestbook-logout.php">Logout</a></button>
 </div>
 <?php include('inc/footer.php'); ?>
