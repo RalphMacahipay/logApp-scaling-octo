@@ -1,5 +1,21 @@
 <?php
-  
+	require('config/config.php');
+  require('config/db.php');
+
+  if(isset($_POST['submit'])){
+    $name = htmlentities($_POST['username']);
+    $pass = htmlentities($_POST['password']);
+
+    $sql = "SELECT * from account where user='".$name."' AND password='".$pass."' 
+            limit 1";
+
+    $result = mysqli_query($conn,$sql);
+
+    if(mysqli_num_rows($result) ==1){
+      header('Location: guestbook-list.php');
+
+    }
+  }
 
 
 
