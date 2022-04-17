@@ -1,6 +1,5 @@
 # LogTracker
 
-[TOC]  
 
 #### :page_facing_up: Description
 This application will trace the customers/visitors of the specific public establishment
