@@ -18,7 +18,7 @@ you can find this folder where you installed your xampp
 
 3. Open your xampp and start Apache and MySQL.
 
-4. Click the admin button and import the database from This_is_my_dabase/weblog.sql
+4. Click the admin button of MySQL and import the database from This_is_my_dabase/weblog.sql
 5. Modify the Config.php from config folder if necessary.
 
 #### Author
